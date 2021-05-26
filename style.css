@@ -1,0 +1,97 @@
+header {
+    background-color: #D9C6BF;
+}
+
+.nav-link {
+    font-size: 1.1em;
+}
+
+h3 {
+    color: #707070;
+}
+
+label {
+    font-weight: bold;
+}
+
+#label {
+    margin-right: 12px;
+    margin-left: 15px;
+}
+
+.opcao {
+    font-weight: normal;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control:focus {
+    border-color: #D9C6BF;
+    box-shadow: 0 0 0 .25rem rgba(202, 156, 102, 0.25)
+}
+
+thead {
+    background-color: #F2E6D8;
+}
+
+.breadcrumb {
+    background-color: #fff;
+    font-size: small;
+    padding: 0;
+}
+
+.caminho {
+    color: #777;
+}
+
+.caminho:hover {
+    color: #333;
+}
+
+.card-img-top {
+    filter: contrast(50%);
+    filter: brightness(50%);
+    filter: grayscale(50%);
+}
+
+footer {
+    background-color: #e6e5e5;
+    color: #000;
+}
+
+#direitos {
+    font-size: large;
+    color: #707070;
+    text-align: center;
+}
+
+#redes {
+    text-align: center;
+}
+
+i {
+    font-size: 2em;
+    margin-left: 5px;
+}
+
+.icon {
+    color: #343a40;
+}
+
+.icon:hover {
+    text-decoration: none;
+}
+
+.valores {
+    font-size: 4em;
+    color: #343a40;
+}
+
+@media (max-width:780px) {
+    #direitos,
+    #redes {
+        display: inline-block;
+    }
+}
